@@ -1,0 +1,8 @@
+{
+  "streams": [
+    {
+      "name": "Open in iPlayer",
+      "externalUrl": "iplayer://"
+    }
+  ]
+}

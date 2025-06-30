@@ -1,0 +1,15 @@
+{
+  "id": "community.omni.testlinks",
+  "version": "1.0.0",
+  "name": "Test Links Addon",
+  "description": "Demo of external app launching via Stremio",
+  "resources": ["catalog", "meta", "stream"],
+  "types": ["tv"],
+  "catalogs": [
+    {
+      "type": "tv",
+      "id": "test_channels",
+      "name": "Test Channels"
+    }
+  ]
+}
