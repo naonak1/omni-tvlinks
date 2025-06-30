@@ -1,7 +1,7 @@
 {
   "id": "community.omni.tvlinks",
-  "version": "1.0.0",
-  "name": "Omni TV Links",
+  "version": "1.0.4",
+  "name": "AA Omni TV Links",
   "description": "Demo of external app launching via Stremio",
   "resources": [
     "catalog",
