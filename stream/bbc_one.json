@@ -1,8 +1,13 @@
 {
   "streams": [
     {
-      "name": "Open in iPlayer",
-      "externalUrl": "iplayer://"
+      "name": "Open BBC iPlayer",
+      "url": "stremio://community.omni.tvlinks/meta/tv/bbc_one",
+      "externalUrl": "iplayer://",
+      "behaviorHints": {
+        "notWebReady": true,
+        "openExternal": true
+      }
     }
   ]
 }

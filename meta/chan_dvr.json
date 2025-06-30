@@ -1,12 +1,10 @@
 {
-  "streams": [
-    {
-      "name": "Open in Channels",
-      "externalUrl": "channels://",
-      "behaviorHints": {
-        "notWebReady": true,
-        "openExternal": true
-      }
-    }
-  ]
+  "meta": {
+    "id": "chan_dvr",
+    "type": "tv",
+    "name": "Channels DVR",
+    "description": "Launch Channels DVR app via custom URI",
+    "poster": "https://getchannels.com/assets/images/icons/icon-512x512.png",
+    "background": "https://getchannels.com/assets/images/og.png"
+  }
 }

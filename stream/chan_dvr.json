@@ -1,8 +1,13 @@
 {
   "streams": [
     {
-      "name": "Open in Channels",
-      "externalUrl": "channels://"
+      "name": "Open Channels DVR",
+      "url": "stremio://community.omni.tvlinks/meta/tv/chan_dvr",
+      "externalUrl": "channels://",
+      "behaviorHints": {
+        "notWebReady": true,
+        "openExternal": true
+      }
     }
   ]
 }
