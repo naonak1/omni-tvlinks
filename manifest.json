@@ -1,6 +1,6 @@
 {
   "id": "community.omni.testlinks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Test Links Addon",
   "description": "Demo of external app launching via Stremio",
   "resources": ["catalog", "meta", "stream"],
