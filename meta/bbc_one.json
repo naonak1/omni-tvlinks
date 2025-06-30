@@ -1,10 +1,12 @@
 {
-  "meta": {
-    "id": "bbc_one",
-    "type": "tv",
-    "name": "BBC One (iPlayer)",
-    "description": "Launch iPlayer app via custom URI",
-    "poster": "https://upload.wikimedia.org/wikipedia/commons/4/4e/BBC_One_logo_2021.svg",
-    "background": "https://upload.wikimedia.org/wikipedia/commons/2/2f/BBC_iPlayer_logo_2021.svg"
-  }
+  "streams": [
+    {
+      "name": "Open in iPlayer",
+      "externalUrl": "iplayer://",
+      "behaviorHints": {
+        "notWebReady": true,
+        "openExternal": true
+      }
+    }
+  ]
 }
